@@ -1,6 +1,6 @@
 <template >
 <div class="card">
-  <div class="card-header"></div>
+  
   <div class="card-body">
 <div class="container-fluid">
   <div class="row">
@@ -35,19 +35,22 @@
   
   
   <div class="card-footer">
+   
 
-    
-        <h5>พัฒนาโดย นายกรพัส พงศ์ปิยะไพร แผนกวิชาคอมพิวเตอร์โปรแกรมเมอร์ วิทยาลัยอาชีวศึกษาสุรินทร์</h5>
+
+        <h5 class="footer"><hr>พัฒนาโดย นายกรพัส พงศ์ปิยะไพร แผนกวิชาคอมพิวเตอร์โปรแกรมเมอร์ วิทยาลัยอาชีวศึกษาสุรินทร์</h5>
         
    </div>
   </div>
 </template>
 <style>
-.card-body {
+/* .card-body {
   background-color: rgb(121, 167, 167);
+} */
+
+.card-body {
+  padding: 100vh;
 }
-
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -59,7 +62,7 @@
 /* .background {
   background-image: url('/img/gudetama.jpg');
 } */
-.card-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
